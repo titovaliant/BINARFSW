@@ -39,6 +39,12 @@
     margin: auto;
 }
 
+.container2 {
+    padding-top: 180px;
+    padding-bottom: 25px;
+    margin-left: 100px;
+}
+
 .navigation {
     background: rgba(0, 0, 0, 0.5);
     padding-top: 35px;
@@ -148,7 +154,7 @@
 /*Game Requirement*/
 .GameRequirement { 
     background-image: url('requirements.png');
-    height: 100vh;
+    height: 110vh;
     background-size: cover;
     background-position: center;
 }
@@ -157,7 +163,42 @@
     color: #fff;
     letter-spacing: 5px;
     font-size: 70px;
-    margin-bottom: 70px;
+    margin-bottom: 115px;
     font-family: 'Bebas Neue', sans-serif;
     text-transform: uppercase;
 }
+
+.th-GameRequirement {
+    color: orange;
+    letter-spacing: 1px;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    
+}
+
+.p-GameRequirement {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+table, th, td {
+  border: 1px solid rgb(180, 180, 180, 0.2);
+  height: 15vh;
+  width: 40vh;
+}
+
+.table2 {
+  height: 15vh;
+  width: 80vh;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  text-align: left;
+}
+
