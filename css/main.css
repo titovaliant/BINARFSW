@@ -40,7 +40,7 @@
 }
 
 .container2 {
-    padding-top: 180px;
+    padding-top: 80px;
     padding-bottom: 25px;
     margin-left: 100px;
 }
@@ -58,7 +58,7 @@
     letter-spacing: 5px;
     margin-top: 330px;
     margin-bottom: 30px;
-    font-size: 80px;
+    font-size: 75px;
     font-family: 'Bebas Neue', sans-serif;
     text-transform: uppercase;
 }
@@ -109,7 +109,7 @@
 /*Game Choice 1*/
 .GameChoice { 
     background-image: url('the-games-bg.jpg');
-    height: 100vh;
+    height: 110vh;
     background-size: cover;
     background-position: center;
 }
@@ -126,7 +126,7 @@
 /*Game Choice 2*/
 .GameChoice2 { 
     background-image: url('features.jpg');
-    height: 100vh;
+    height: 120vh;
     background-size: cover;
     background-position: center;
 }
@@ -137,7 +137,7 @@
     margin-top: 0px;
     margin-bottom: 20px;
     font-family: 'Bebas Neue', sans-serif;
-    padding-left:45px;
+    padding-left:30px;
     text-transform: uppercase;
 }
 
@@ -147,22 +147,34 @@
     margin-top: 0px;
     margin-bottom: 50px;
     font-family: 'Bebas Neue', sans-serif;
-    padding-left:45px;
+    padding-left:30px;
     padding-bottom:10px;
 }
 
 /*Game Requirement*/
 .GameRequirement { 
     background-image: url('requirements.png');
-    height: 110vh;
+    height: 130vh;
     background-size: cover;
     background-position: center;
+}
+
+.navigation2 {
+    background: rgba(0, 0, 0, 0.5);
+    padding-top: 40px;
+    padding-bottom: 25px;
+}
+
+.tab1 {
+    height: 20vh;
+    width:  10vh;
 }
 
 .h1-GameRequirement {
     color: #fff;
     letter-spacing: 5px;
-    font-size: 70px;
+    font-size: 60px;
+    margin-top:  0px;
     margin-bottom: 115px;
     font-family: 'Bebas Neue', sans-serif;
     text-transform: uppercase;
@@ -184,6 +196,12 @@
     font-size: 18px;
 }
 
+.h5-GameRequirement {
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 14px;
+}
+
 table, th, td {
   border: 1px solid rgb(180, 180, 180, 0.2);
   height: 15vh;
@@ -200,5 +218,65 @@ table, th, td {
   flex-wrap: wrap;
   font-size: 30px;
   text-align: left;
+  margin-left: 120px;
+  flex-grow: 1;
+  /*margin-top: 0px;*/
 }
 
+/*Top Scores*/
+.TopScores { 
+    background-image: url('ts.jpg');
+    height: 130vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.tab2 {
+    height: 20vh;
+    width:  45vh;
+    margin-top:  370px;
+    padding-bottom: 0px;
+}
+
+.tab3 {
+  border-radius: 25px;
+  background: rgba(40, 40, 40, 1);
+  padding: 20px 70px;
+  padding-top: 1px;
+  width: 400px;
+  height: 180px;
+}
+
+.h1-TopScores {
+    color: #fff;
+    letter-spacing: 5px;
+    font-size: 60px;
+    margin-top:  0px;
+    font-family: 'Bebas Neue', sans-serif;
+    text-transform: uppercase;
+}
+
+.h4-TopScores {
+    margin-top: 30px;
+    color: lightgray;
+}
+
+.button-TopScores{
+    background-color:orange;
+    color:black;
+    border:0;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+    padding-left:75px;
+    padding-right:75px;
+    padding-top:10px;
+    padding-bottom:10px;
+    display:block;
+    border-radius: 4px;
+}
+
+.TopScoresContainer{
+    flex-grow: 1;
+    background-color:yellow;
+}
